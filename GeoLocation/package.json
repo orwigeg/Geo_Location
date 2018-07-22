@@ -1,0 +1,17 @@
+{
+  "name": "geolocationlab",
+  "version": "1.0.0",
+  "description": "geolocation",
+  "main": "mongoGPSServer.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-favicon": "^2.0.0",
+    "mongoose": "^5.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elizabeth O",
+  "license": "ISC"
+}

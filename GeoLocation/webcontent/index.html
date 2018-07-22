@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Author: ELizabeth Orwig -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Geolocation Tracker</title>
+    <style>
+        #map {
+            border: 1px solid black;
+            width: auto;
+            height: auto;
+        }
+        input {
+            width:200px;
+            height:200px;
+            font-size: 24px;
+        }
+
+        body { font-family: "Arial";
+            font-size: 48px; }
+    </style>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXGhleWkfUada4eH4eWLxeA4WTtLUgLt0"
+        type="text/javascript"></script>
+<!--<script src="https://maps.google.com/maps/api/js?sensor=true"></script>-->
+<script src="Geolocation.js"></script>
+<body>
+<input id="getloc" type=button value="Track">
+<input id= "stop" type=button value="Stop">
+<input id= "save" type=button value="Save">
+<input id="route" type="text" value="myRoute" >
+<p id="message"></p>
+<p id="display"></p>
+<div id="map"></div>
+</body>
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXGhleWkfUada4eH4eWLxeA4WTtLUgLt0"
+        type="text/javascript"></script>
+<!--<script src="https://maps.google.com/maps/api/js?sensor=true"></script>-->
+<!--<script src="./Geolocation.js"></script>-->
+<script>
+    Geolocation.start();
+</script>
+</html>
