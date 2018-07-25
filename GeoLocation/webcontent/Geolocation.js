@@ -36,8 +36,6 @@ class Geolocation {
 
         function handleSave(){
             var route = $("#route").val();
-            //console.log("Entering handleSave()")
-            console.log(positionArray.length)
             for(let i = 0; i < positionArray.length; i++) {
 
                 // This is the data we're sending to the server to be saved to mongo
